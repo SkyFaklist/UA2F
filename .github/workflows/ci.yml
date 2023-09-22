@@ -39,20 +39,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: arm_cortex-a7-21.02.0
+          - arch: arm_cortex-a7-21.02.5
             target: ipq807x-generic
-
-          - arch: arm_cortex-a9_vfpv3-d16
-            target: mvebu-cortexa9
-
-          - arch: arm_cortex-a15_neon-vfpv4
-            target: armvirt-32
-
-          - arch: i386_pentium4
-            target: x86-generic
-
-          - arch: i386_pentium-mmx
-            target: x86-geode
 
           - arch: x86_64
             target: x86-64
