@@ -39,19 +39,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - arch: aarch64_cortex-a53
-            target: mvebu-cortexa53
-
-          - arch: aarch64_cortex-a72
-            target: mvebu-cortexa72
-
-          - arch: aarch64_generic
-            target: rockchip-armv8
-
-          - arch: arm_cortex-a7_neon-vfpv4
-            target: ipq40xx-generic
-            
-          - arch: arm_cortex-a7
+          - arch: arm_cortex-a7-21.02.0
             target: ipq807x-generic
 
           - arch: arm_cortex-a9_vfpv3-d16
@@ -65,18 +53,6 @@ jobs:
 
           - arch: i386_pentium-mmx
             target: x86-geode
-
-          - arch: mips_24kc
-            target: ath79-generic
-
-          - arch: mipsel_24kc
-            target: mt7621
-
-          - arch: powerpc_464fp
-            target: apm821xx-nand
-
-          - arch: powerpc_8548
-            target: mpc85xx-p1010
 
           - arch: x86_64
             target: x86-64
