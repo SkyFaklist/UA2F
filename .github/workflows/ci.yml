@@ -51,7 +51,7 @@ jobs:
           - arch: arm_cortex-a7_neon-vfpv4
             target: ipq40xx-generic
             
-          - arch: arm_cortex-a7_rev4
+          - arch: arm_cortex-a7
             target: ipq807x-generic
 
           - arch: arm_cortex-a9_vfpv3-d16
